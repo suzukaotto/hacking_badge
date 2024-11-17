@@ -1278,7 +1278,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "130"
 			(at 89.154 99.06 0)
 			(effects
 				(font
@@ -1347,7 +1347,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "130"
 			(at 89.154 92.71 0)
 			(effects
 				(font
@@ -1556,7 +1556,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "130"
 			(at 89.154 80.01 0)
 			(effects
 				(font
@@ -1695,7 +1695,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "130"
 			(at 95.504 104.14 0)
 			(effects
 				(font
@@ -1904,7 +1904,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "130"
 			(at 95.504 109.22 0)
 			(effects
 				(font
@@ -2128,7 +2128,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "130"
 			(at 89.154 86.36 0)
 			(effects
 				(font

@@ -1,0 +1,4 @@
+Reference,Value,Datasheet,Footprint,Qty,DNP
+A1,Arduino_Nano_v2.x,https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf,Module:Arduino_Nano,1,
+"D1,D2,D3,D4,D5,D6",LED,~,LED_SMD:LED_0603_1608Metric,6,
+"R1,R2,R3,R4,R5,R6",130,~,LED_SMD:LED_0201_0603Metric,6,
