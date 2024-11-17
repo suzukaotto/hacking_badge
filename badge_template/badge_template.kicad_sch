@@ -295,7 +295,7 @@
 				)
 			)
 		)
-		(symbol "MCU_Module:Arduino_Nano_v2.x"
+		(symbol "MCU_Module:Arduino_Nano_v3.x"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -308,7 +308,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Arduino_Nano_v2.x"
+			(property "Value" "Arduino_Nano_v3.x"
 				(at 5.08 -24.13 0)
 				(effects
 					(font
@@ -327,7 +327,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf"
+			(property "Datasheet" "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -336,7 +336,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Arduino Nano v2.x"
+			(property "Description" "Arduino Nano v3.x"
 				(at 0 0 0)
 				(effects
 					(font
@@ -363,7 +363,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Arduino_Nano_v2.x_0_1"
+			(symbol "Arduino_Nano_v3.x_0_1"
 				(rectangle
 					(start -10.16 22.86)
 					(end 10.16 -22.86)
@@ -376,7 +376,7 @@
 					)
 				)
 			)
-			(symbol "Arduino_Nano_v2.x_1_1"
+			(symbol "Arduino_Nano_v3.x_1_1"
 				(pin bidirectional line
 					(at -12.7 12.7 0)
 					(length 2.54)
@@ -933,16 +933,16 @@
 		(uuid "18afaf07-74c6-439d-be7d-91c11a38623c")
 	)
 	(junction
+		(at 124.46 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4814f1d7-463c-4b84-bc56-2f13520290bb")
+	)
+	(junction
 		(at 74.93 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91cc26f1-d815-47da-965c-df5f3c0eef32")
-	)
-	(junction
-		(at 124.46 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd1f7dc3-aa7d-46ee-884f-2c2cfe9e9d5f")
 	)
 	(junction
 		(at 74.93 90.17)
@@ -1887,6 +1887,161 @@
 		)
 	)
 	(symbol
+		(lib_id "MCU_Module:Arduino_Nano_v3.x")
+		(at 124.46 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5c7e84a-4b33-427f-9dc9-d656983967c6")
+		(property "Reference" "A2"
+			(at 129.1941 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Arduino_Nano_v3.x"
+			(at 129.1941 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Arduino_Nano"
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Arduino Nano v3.x"
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6b39fccd-7b6b-4750-90f3-7c15b54e8700")
+		)
+		(pin "27"
+			(uuid "f401f9b3-ff6d-4a82-9f61-d786539c00b4")
+		)
+		(pin "30"
+			(uuid "3386812d-292b-4c2a-8d9e-fd0cf897070a")
+		)
+		(pin "2"
+			(uuid "51bcaa29-e0d6-4381-9f4a-34073c32db62")
+		)
+		(pin "10"
+			(uuid "adeecd9c-6163-42bf-9057-35c76c726d0b")
+		)
+		(pin "29"
+			(uuid "56fba42b-fb4e-4481-9b2b-6a7126091b67")
+		)
+		(pin "16"
+			(uuid "cb4d8aa3-812d-4f6a-aa96-674f09b13dd1")
+		)
+		(pin "9"
+			(uuid "7d5f7cec-29c7-49fd-8a20-b8daec7c94b9")
+		)
+		(pin "7"
+			(uuid "420597ca-485c-4273-b8d6-650d960e77dc")
+		)
+		(pin "3"
+			(uuid "109b259a-c64a-45c1-8c11-a6b52903b586")
+		)
+		(pin "23"
+			(uuid "12c3a859-26ec-4fb1-9954-94c46f67d4dc")
+		)
+		(pin "14"
+			(uuid "eb8b4afc-137e-4fdc-99c9-f15964ff6810")
+		)
+		(pin "6"
+			(uuid "00ed74ea-5ca6-4d94-9559-80e7dd6ebe0c")
+		)
+		(pin "18"
+			(uuid "14be3d84-baf5-4a52-8f9f-2f1c8d95f25d")
+		)
+		(pin "24"
+			(uuid "9d89f422-cf1e-4e11-819f-ac69f817e0a4")
+		)
+		(pin "26"
+			(uuid "f2962519-ce44-4685-8bf3-4bf00532f92c")
+		)
+		(pin "17"
+			(uuid "4b054924-96d6-4e2c-beee-2e18b21ea0fe")
+		)
+		(pin "11"
+			(uuid "d23be88a-92bf-4c24-b8ef-722af333b51c")
+		)
+		(pin "28"
+			(uuid "95c01f72-aef7-49bd-be82-835782069ecd")
+		)
+		(pin "25"
+			(uuid "8a10341e-50c8-499e-a2cd-0283a80b0da9")
+		)
+		(pin "1"
+			(uuid "4a99fa8f-35da-4cd9-9183-ebc546afbeb0")
+		)
+		(pin "8"
+			(uuid "77c6bde8-5159-4709-952b-d0afe805a3d0")
+		)
+		(pin "22"
+			(uuid "5f1c4d07-54b2-4982-a987-5094b13fb39d")
+		)
+		(pin "19"
+			(uuid "7317a700-420e-4f7c-b264-aef61eebfa31")
+		)
+		(pin "20"
+			(uuid "eb7f384d-23ec-43ef-83e0-97d521289754")
+		)
+		(pin "4"
+			(uuid "88738b69-d4df-4eb0-9a88-c1d949027f8d")
+		)
+		(pin "12"
+			(uuid "7b2a2fc6-466e-495a-b9de-3fb12abaa43b")
+		)
+		(pin "5"
+			(uuid "32311b77-ac33-445b-a0ed-738089c1fb71")
+		)
+		(pin "21"
+			(uuid "281f4832-c7b8-444a-aad5-6a4c8eea4662")
+		)
+		(pin "15"
+			(uuid "cf857735-ac37-4355-be71-262ab2e2b9de")
+		)
+		(instances
+			(project ""
+				(path "/7966b607-d2b7-4f48-a4fc-a876c3848eb5"
+					(reference "A2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 96.52 113.03 90)
 		(unit 1)
@@ -1950,161 +2105,6 @@
 			(project "badge_template"
 				(path "/7966b607-d2b7-4f48-a4fc-a876c3848eb5"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_Module:Arduino_Nano_v2.x")
-		(at 124.46 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc715401-475b-483a-bda9-3df4991f5b8c")
-		(property "Reference" "A1"
-			(at 129.1941 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Arduino_Nano_v2.x"
-			(at 129.1941 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Module:Arduino_Nano"
-			(at 124.46 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf"
-			(at 124.46 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Arduino Nano v2.x"
-			(at 124.46 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "2691b5d5-4ce3-4cba-84fa-d7bf51214136")
-		)
-		(pin "14"
-			(uuid "f067121e-0fc0-4db6-a4f2-38c08345b07b")
-		)
-		(pin "19"
-			(uuid "db867637-bff5-4253-8cc6-16375b73e2c5")
-		)
-		(pin "23"
-			(uuid "895ff4d9-043c-40e0-82cf-c4ab9d3ee6ac")
-		)
-		(pin "1"
-			(uuid "cbfbd658-f016-441b-a94b-83a7d037d893")
-		)
-		(pin "29"
-			(uuid "f88e66a3-7ce3-4983-9d78-b2ec89d77af8")
-		)
-		(pin "3"
-			(uuid "a51509c4-6371-42b3-8084-5b4e73c3ceeb")
-		)
-		(pin "7"
-			(uuid "e6817090-2045-42f8-9761-77305b3f2871")
-		)
-		(pin "8"
-			(uuid "5c7d220a-9258-427d-a849-186c20c91922")
-		)
-		(pin "20"
-			(uuid "a7e64706-0339-4fae-899a-5e19464daf2a")
-		)
-		(pin "16"
-			(uuid "a4d77e89-3328-492b-8213-686f871c4258")
-		)
-		(pin "9"
-			(uuid "55fd591f-5a00-42e5-8fbb-f5e989a70282")
-		)
-		(pin "30"
-			(uuid "271563cd-e763-42b8-80f1-3e8fa54cdffb")
-		)
-		(pin "10"
-			(uuid "f34817b6-3932-4bda-b614-5865271c4360")
-		)
-		(pin "26"
-			(uuid "e7543086-4d29-4302-bbfa-e7e2aa6de25f")
-		)
-		(pin "24"
-			(uuid "ea50b7ad-4e1b-490a-bee9-bc7169ec7672")
-		)
-		(pin "11"
-			(uuid "01576ad8-06fb-4de6-aabc-f6b25e69bfa5")
-		)
-		(pin "18"
-			(uuid "21dcaa22-867f-4924-af63-51595923b03b")
-		)
-		(pin "28"
-			(uuid "b9db131c-e3eb-4f6c-8645-2b03e23090d4")
-		)
-		(pin "6"
-			(uuid "1798cdc3-46ad-41e8-b010-6cf20506552e")
-		)
-		(pin "15"
-			(uuid "93d0a14a-a5a4-483e-b88f-a900d463dbaf")
-		)
-		(pin "17"
-			(uuid "bae27b65-faa3-48ab-918f-9642705dabb8")
-		)
-		(pin "2"
-			(uuid "0e89f931-bf11-4fab-917b-049793de123c")
-		)
-		(pin "21"
-			(uuid "b62fa2ac-2591-4817-b57c-f6387dd3192d")
-		)
-		(pin "22"
-			(uuid "d0cb87f4-c608-4d83-87c9-e6c1ea5976cb")
-		)
-		(pin "25"
-			(uuid "f5a0d547-fc79-4126-979c-1b620e14ebaa")
-		)
-		(pin "27"
-			(uuid "4c93b608-30d2-4793-b0a5-40197bb8faea")
-		)
-		(pin "4"
-			(uuid "969bcee8-59e6-4a3b-be96-37c1bf5af596")
-		)
-		(pin "5"
-			(uuid "8375cac6-4333-47c8-99bb-3391e5ca3a76")
-		)
-		(pin "13"
-			(uuid "ebfb4811-51dc-4634-b3ea-c66a7ee230fe")
-		)
-		(instances
-			(project ""
-				(path "/7966b607-d2b7-4f48-a4fc-a876c3848eb5"
-					(reference "A1")
 					(unit 1)
 				)
 			)
